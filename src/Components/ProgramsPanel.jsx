@@ -6,7 +6,7 @@ const ProgramsPanel = () => {
       <h3 className=" font-medium text-[1.6rem] sm:text-[2rem] md:text-[2rem] lg:text-[2.5rem] xl:text-[3rem] text-white lg:leading-[3.5rem] xl:leading-[4rem]">
         Yoga & Meditation Programs
       </h3>
-      <div className="flex gap-6 md:gap-10 xl:gap-20 md:flex-nowrap flex-wrap justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 xl:gap-20 place-items-center">
         <Programs />
       </div>
     </div>

@@ -6,14 +6,15 @@ const Hero = () => {
   return (
     <div className="md:w-full md:h-[100vh] overflow-hidden relative">
       <div className="absolute flex flex-col justify-center px-10 lg:px-20 bg-black/70 h-full w-full">
-        <h2 className="text-[1.6rem] sm:text-[2rem] md:text-[2rem] lg:text-[2.5rem] xl:text-[3rem] 2xl:text-[4rem] md:w-[60%] text-white lg:leading-[3.5rem] xl:leading-[4rem]">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium,
-          excepturi.
+        <h2 className="text-[1.6rem] sm:text-[2rem] md:text-[2rem] lg:text-[2.5rem] xl:text-[3rem] 2xl:text-[4rem] md:w-[50%] text-white lg:leading-[3.5rem] xl:leading-[4rem]">
+          Taking Yoga Beyond The Limit Reach Your New Potential
         </h2>
         <p className="md:w-[45%] text-white/75 py-10 lg:text-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, vel
-          voluptatum et, eos cumque repellendus dignissimos earum laboriosam
-          molestias magni quas debitis. Magnam, dignissimos cupiditate.
+          Take a step towards your wellbeing with these yoga programs, designed
+          by Sadhguru and suitable for beginners. With an array of options
+          available, you can find a class located near you, attend at an Isha
+          center, or even begin right now, wherever you are, with a free online
+          program!
         </p>
         <div className="flex flex-wrap min-h-max gap-10">
           <Link

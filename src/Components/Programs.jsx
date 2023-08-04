@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import { Link } from "react-router-dom";
 import programImg from "../assets/Supriya.jpeg";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
@@ -31,7 +30,6 @@ const programs = [
 ];
 
 const Programs = () => {
-  // const [programIndex, setProgramIndex] = useState(0);
 
   return (
     <>

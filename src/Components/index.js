@@ -5,3 +5,5 @@ export { default as ShowcaseVideo } from "./ShowcaseVideo";
 export { default as ProgramsPanel } from "./ProgramsPanel";
 export { default as Programs } from "./Programs";
 export { default as Testimonials } from "./Testimonials";
+export { default as ProgramsHeroPage } from "./ProgramsHeroPage";
+export { default as YogaKriya } from "./YogaKriya";
