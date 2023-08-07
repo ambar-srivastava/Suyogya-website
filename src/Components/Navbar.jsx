@@ -4,7 +4,7 @@ import { BsEnvelopeAtFill } from "react-icons/bs";
 import logo from "../assets/Logo.svg";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { IoLogoYoutube } from "react-icons/io";
-import { BiLogoFacebookSquare, BiLogoLinkedinSquare } from "react-icons/bi";
+import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 const Navbar = () => {
   const location = useLocation();
   const navigate = useNavigate();
@@ -226,7 +226,7 @@ const Navbar = () => {
                   target="_blank"
                 >
                   <div className="rounded-full shadow-lg shadow-slate-300 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <BiLogoFacebookSquare className="text-primary" size={20} />
+                    <FaFacebookF className="text-primary" size={20} />
                   </div>
                 </NavLink>
                 <NavLink
@@ -235,7 +235,7 @@ const Navbar = () => {
                   target="_blank"
                 >
                   <div className="rounded-full shadow-lg shadow-slate-300 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <BiLogoLinkedinSquare className="text-primary" size={20} />
+                    <FaLinkedinIn className="text-primary" size={20} />
                   </div>
                 </NavLink>
                 <NavLink
