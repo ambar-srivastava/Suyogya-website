@@ -1,43 +1,34 @@
 import { Link } from "react-router-dom";
-import yogaImage from "../assets/cardImg.jpg";
+import Sukhasana from "../assets/Sukhasana.jpg";
+import Bhadrasana from "../assets/Bhadrasana.jpg";
+import Vajrasana from "../assets/Vajrasana.png";
+import Vrikshasana from "../assets/Vrikshasana.jpg";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 const yogaKriya = [
   {
     id: 1,
-    yogaName: "Sashtanga",
+    yogaName: "Sukhasana",
     text: "A simple and effective posture from Sadhguru to improve the oxygen levels in your blood without external apparatus.",
-    image: yogaImage,
+    image: Sukhasana,
   },
   {
     id: 2,
-    yogaName: "Simha Kriya",
+    yogaName: "Bhadrasana",
     text: "A simple and effective posture from Sadhguru to improve the oxygen levels in your blood without external apparatus.",
-    image: yogaImage,
+    image: Bhadrasana,
   },
   {
     id: 3,
-    yogaName: "Hatha Yoga",
+    yogaName: "Vajrasana",
     text: "A simple and effective posture from Sadhguru to improve the oxygen levels in your blood without external apparatus.",
-    image: yogaImage,
+    image: Vajrasana,
   },
   {
     id: 4,
-    yogaName: "Aumkar Meditation",
+    yogaName: "Vrikshasana",
     text: "A simple and effective posture from Sadhguru to improve the oxygen levels in your blood without external apparatus.",
-    image: yogaImage,
-  },
-  {
-    id: 5,
-    yogaName: "Uyirnokkam",
-    text: "A simple and effective posture from Sadhguru to improve the oxygen levels in your blood without external apparatus.",
-    image: yogaImage,
-  },
-  {
-    id: 6,
-    yogaName: "5 Minute Yoga Tools",
-    text: "A simple and effective posture from Sadhguru to improve the oxygen levels in your blood without external apparatus.",
-    image: yogaImage,
+    image: Vrikshasana,
   },
 ];
 

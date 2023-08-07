@@ -14,24 +14,24 @@ const Footer = () => {
             </h2>
             <ul className="text-gray-400 font-medium">
               <li className="mb-4">
-                <Link to="/" className=" hover:underline">
+                <a href="/#home" className=" hover:underline">
                   Home
-                </Link>
+                </a>
               </li>
               <li className="mb-4">
-                <Link to="/" className="hover:underline">
+                <a href="/#about" className="hover:underline">
                   About
-                </Link>
+                </a>
               </li>
               <li className="mb-4">
-                <Link to="/" className="hover:underline">
+                <a href="/#program" className="hover:underline">
                   Programs
-                </Link>
+                </a>
               </li>
               <li className="mb-4">
-                <Link to="/" className="hover:underline">
+                <a href="/#testimonials" className="hover:underline">
                   Testimonials
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -41,22 +41,34 @@ const Footer = () => {
             </h2>
             <ul className="text-gray-400 font-medium">
               <li className="mb-4">
-                <Link to="/" className="hover:underline">
+                <Link
+                  to="https://www.youtube.com/@Trainwithsuyogya"
+                  target="_blank"
+                  className="hover:underline"
+                >
                   YouTube
                 </Link>
               </li>
               <li className="mb-4">
-                <Link to="/" className="hover:underline">
+                <Link
+                  to="https://www.linkedin.com/in/suyogya-yoga-center-834882285"
+                  target="_blank"
+                  className="hover:underline"
+                >
                   LinkedIn
                 </Link>
               </li>
               <li className="mb-4">
-                <Link to="/" className="hover:underline">
+                <Link
+                  to="https://www.facebook.com/trainwithsuyogya"
+                  target="_blank"
+                  className="hover:underline"
+                >
                   Facebook
                 </Link>
               </li>
               <li className="mb-4">
-                <Link to="/" className="hover:underline">
+                <Link to="/contact" className="hover:underline">
                   Contact Us
                 </Link>
               </li>
@@ -89,17 +101,29 @@ const Footer = () => {
           <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">
             &copy; 2023 <Link to="/">Suyogya</Link>. All Rights Reserved.
           </span>
-          <div className="flex mt-4 gap-x-5 md:mt-0">
-            <Link to="/" className="text-gray-400 hover:text-white">
+          <div className="flex flex-wrap mt-4 gap-x-5 md:mt-0">
+            <Link
+              to="https://www.facebook.com/trainwithsuyogya"
+              target="_blank"
+              className="text-gray-400 hover:text-white"
+            >
               <BiLogoFacebookSquare size={25} />
             </Link>
-            <Link to="/" className="text-gray-400 hover:text-white">
+            <Link
+              to="https://www.linkedin.com/in/suyogya-yoga-center-834882285"
+              target="_blank"
+              className="text-gray-400 hover:text-white"
+            >
               <BiLogoLinkedinSquare size={25} />
             </Link>
-            <Link to="/" className="text-gray-400 hover:text-white">
+            <Link
+              to="https://www.youtube.com/@Trainwithsuyogya"
+              target="_blank"
+              className="text-gray-400 hover:text-white"
+            >
               <IoLogoYoutube size={25} />
             </Link>
-            <Link to="/" className="text-gray-400 hover:text-white">
+            <Link to="/contact" className="text-gray-400 hover:text-white">
               <BsEnvelopeAtFill size={25} />
             </Link>
           </div>

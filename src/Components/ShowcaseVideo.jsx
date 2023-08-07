@@ -1,6 +1,9 @@
 const ShowcaseVideo = () => {
   return (
-    <div className=" w-full bg-gradient-to-r from-stone-900 to-zinc-700 p-10 lg:p-20">
+    <div
+      id="about"
+      className=" w-full bg-gradient-to-r from-stone-900 to-zinc-700 p-10 lg:p-20"
+    >
       <div className="bg-gradient-to-l from-gray-200 to-zinc-500 flex justify-center items-center w-full h-full">
         <div className=" w-[70%] h-[14rem] sm:h-[20rem] md:h-[25rem] lg:h-[50rem] flex items-center justify-center overflow-hidden">
           <iframe

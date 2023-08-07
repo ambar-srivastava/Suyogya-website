@@ -44,7 +44,10 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="flex flex-col w-full min-h-full items-center justify-center py-8">
+    <div
+      id="testimonials"
+      className="flex flex-col w-full min-h-full items-center justify-center py-8"
+    >
       <h2 className="sm:text-5xl text-3xl text-primary font-medium mb-5">
         Testimonials
       </h2>
