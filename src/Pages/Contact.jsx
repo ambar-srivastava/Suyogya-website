@@ -12,7 +12,9 @@ const Contact = () => {
         <p className="text-xl tracking-widest uppercase text-primary">
           Contact
         </p>
-        <h2 className="py-3 font-semibold text-gray-600">Get In Touch with us</h2>
+        <h2 className="py-3 font-semibold text-gray-600">
+          Get In Touch with us
+        </h2>
         <div className=" grid lg:grid-cols-5 gap-24">
           {/* left */}
           <div className=" col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-slate-300 rounded-xl p-4">
@@ -76,7 +78,7 @@ const Contact = () => {
           <div className="col-span-3 w-full h-auto shadow-xl shadow-slate-300 rounded-xl lg:p-4">
             <div className=" p-4">
               {/* <form method="POST" action="https://formspree.io/f/moqzvjeq"> */}
-              <form method="POST" action="https://usebasin.com/f/fb5fa0b7ed13">
+              <form method="POST" action="/">
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm text-gray-500 py-2">
@@ -125,8 +127,9 @@ const Contact = () => {
                   </label>
                   <textarea
                     name="Message"
-                    className=" border-2 outline-0 rounded-lg p-3 border-gray-300"
+                    className=" border-2 outline-0 rounded-lg p-3 border-gray-300 resize-none"
                     rows="10"
+                    // cols="70"
                   ></textarea>
                 </div>
                 <button className="w-full mt-2 p-4 text-white rounded-lg tracking-widest font-semibold">

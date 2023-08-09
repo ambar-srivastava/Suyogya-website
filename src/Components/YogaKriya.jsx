@@ -1,41 +1,10 @@
 import { Link } from "react-router-dom";
-import Sukhasana from "../assets/Sukhasana.jpg";
-import Bhadrasana from "../assets/Bhadrasana.jpg";
-import Vajrasana from "../assets/Vajrasana.png";
-import Vrikshasana from "../assets/Vrikshasana.jpg";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
-const yogaKriya = [
-  {
-    id: 1,
-    yogaName: "Sukhasana",
-    text: "A simple and effective posture from Sadhguru to improve the oxygen levels in your blood without external apparatus.",
-    image: Sukhasana,
-  },
-  {
-    id: 2,
-    yogaName: "Bhadrasana",
-    text: "A simple and effective posture from Sadhguru to improve the oxygen levels in your blood without external apparatus.",
-    image: Bhadrasana,
-  },
-  {
-    id: 3,
-    yogaName: "Vajrasana",
-    text: "A simple and effective posture from Sadhguru to improve the oxygen levels in your blood without external apparatus.",
-    image: Vajrasana,
-  },
-  {
-    id: 4,
-    yogaName: "Vrikshasana",
-    text: "A simple and effective posture from Sadhguru to improve the oxygen levels in your blood without external apparatus.",
-    image: Vrikshasana,
-  },
-];
-
-const YogaKriya = () => {
+const YogaKriya = ({ beginnerYoga }) => {
   return (
     <>
-      {yogaKriya.map((yoga) => (
+      {beginnerYoga.map((yoga) => (
         <div
           key={yoga.id}
           className="max-w-md rounded-xl overflow-hidden border-none outline-none bg-gray-200 hover:scale-105 transition-all ease-in-out duration-500"
