@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
-const YogaKriya = ({ beginnerYoga }) => {
+const YogaKriya = ({ yogaDetails }) => {
   return (
     <>
-      {beginnerYoga.map((yoga) => (
+      {yogaDetails.map((yoga) => (
         <div
           key={yoga.id}
           className="max-w-md rounded-xl overflow-hidden border-none outline-none bg-gray-200 hover:scale-105 transition-all ease-in-out duration-500"

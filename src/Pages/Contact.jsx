@@ -1,4 +1,4 @@
-import contactPageImg from "../assets/Supriya.jpeg";
+import contactPageImg from "../assets/ProgramsImg2.jpg";
 import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 import { BsEnvelopeAtFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
