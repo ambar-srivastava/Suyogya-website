@@ -16,16 +16,11 @@ const ProgramsHeroPage = () => {
             : "Program Details"}
         </h2>
         <p className="md:w-[45%] text-white/75 py-10 lg:text-lg">
-          Yoga is a way to produce a chemistry of blissfulness. Once you are
-          blissful by your own nature, you can deal with outside situations
-          effortlessly.
-        </p>
-        <p className="md:w-[45%] text-white/75 lg:text-lg">
-          Take a step towards your wellbeing with these yoga programs, designed
-          by Supriya and suitable for beginners. With an array of options
-          available, you can find a class located near you, attend at an Isha
-          center, or even begin right now, wherever you are, with a free online
-          program!
+          {programType === "beginner-program"
+            ? "SuYogya has designed its yoga program so that you can learn it from scratch, We team SuYogya is here to help you to conquer yourself to conquer the world. The beginner Program gonna help you to start with no experience and still, you can attain your best. You can find a class located near you, attend at a SuYogya center or even begin right now, wherever you are, with an online session!"
+            : programType === "advance-program"
+            ? "SuYogya has designed its Advanced Programs for individuals who experience their life beyond the best way, to push their limits mentally, physically, and spiritually. This program includes all the asanas and sadhanas to help you experience your life beyond limitations."
+            : "Program Details"}
         </p>
       </div>
       <picture className="bg-cover bg-center">
